@@ -1,12 +1,37 @@
-SVG (Vector)
-___
+          SVG (Vector)
+          ___
 
 
 Scalable Vector Graphics
 
 
-SOURCES
-_______
+          SOURCES
+          _______
 
 https://vizhub.com
 https://d3js.org
+
+
+
+<body>
+  <svg>
+  
+  </svg>
+</body>
+
+
+
+NOTICE: the svg tag has a default size (width and height)!
+
+so we have to style it
+
+
+
+          TANGLES ?
+          _______
+
+
+rect (coordinates ?)
+fill (for color)
+
+
