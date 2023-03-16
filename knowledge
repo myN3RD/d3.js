@@ -45,6 +45,10 @@ stroke-width (like border size)
 
           SHAPES
           ______
+          
+          
+NOTE: the order of the shapes in the code from top to bottom is like "Photoshop Ebenen"
+      -> that means the shapes on the top of the code will be UNDER the FOLLOWING shapes
 
 
 circle
