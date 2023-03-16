@@ -5,6 +5,7 @@
 Scalable Vector Graphics
 
 
+
           SOURCES
           _______
 
@@ -43,6 +44,7 @@ stroke-width (like border size)
 
 
 
+
           SHAPES
           ______
           
@@ -51,8 +53,9 @@ NOTE: the order of the shapes in the code from top to bottom is like "Photoshop 
       -> that means the shapes on the top of the code will be UNDER the FOLLOWING shapes
 
 
-circle
-rect (rechteck)
+<circle></circle>
+<rect/> (rechteck)
+<line></line>
 
 
 
