@@ -49,13 +49,15 @@ stroke-width (like border size)
           ______
           
           
-NOTE: the order of the shapes in the code from top to bottom is like "Photoshop Ebenen"
+NOTE: the order of the shapes in the code from top to bottom is like layering "Photoshop Ebenen"
       -> that means the shapes on the top of the code will be UNDER the FOLLOWING shapes
 
 
 <circle></circle>
 <rect/> (rechteck)
 <line></line>
+<path></path> (for dynamic data-driven lines?)
+          (by default its filling -> if we dont want the auto fill -> fill="none")
 
 
 
