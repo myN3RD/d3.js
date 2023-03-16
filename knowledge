@@ -29,9 +29,26 @@ so we have to style it
 
           TANGLES ?
           _______
-
-
-rect (coordinates ?)
+          
+       
+       
+       
+          ATTRIBUTES
+          __________
+          
+        
 fill (for color)
+stroke (like border)
+stroke-width (like border size)
+
+
+
+          SHAPES
+          ______
+
+
+circle
+rect (rechteck)
+
 
 
