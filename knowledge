@@ -5,6 +5,9 @@
 Scalable Vector Graphics
 
 
+NOTE: in SVG the y coordinate is starting with 0 from the TOP
+
+
 
           SOURCES
           _______
