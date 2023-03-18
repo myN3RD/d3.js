@@ -29,6 +29,8 @@ NOTICE: the svg tag has a default size (width and height)!
 
 so we have to style it
 
+same for <text></text>
+
 
 
           TANGLES ?
@@ -61,6 +63,7 @@ NOTE: the order of the shapes in the code from top to bottom is like layering "P
 <line></line>
 <path></path> (for dynamic data-driven lines?)
           (by default its filling -> if we dont want the auto fill -> fill="none")
+<text fill="black" x="" y=""></text>
 
 
 
