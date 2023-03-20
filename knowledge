@@ -3,6 +3,8 @@ d3 is a javascript library
 
 Implementing:
 
+ONLINE USAGE:
+
 in the head!
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
@@ -12,11 +14,19 @@ go to this link (use the current version in url)
 https://d3js.org/d3.v7.js                      -> that the entire library
 
 
+
+
 OPTIONAL: to use d3 offline
+
+OFFLINE USAGE:
+
 
 -> create a file d3.v7.js
 -> copy all coe from https://d3js.org/d3.v7.js
 -> paste it into the d3.v7.js file
+
+
+<script src="d3.v7.js"></script>
 
 
 
