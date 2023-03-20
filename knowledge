@@ -42,7 +42,18 @@ Scalable Vector Graphics
 NOTE: in SVG the y coordinate is starting with 0 from the TOP
 
 
+   x ->
 
+y  0 1 2 3 4 5
+⬇
+   1
+   2
+   3
+   4
+   5
+   
+   
+   
           SOURCES
           _______
 
