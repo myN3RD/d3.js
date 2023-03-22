@@ -1,6 +1,9 @@
 d3 is a javascript library
 
 
+every d3 object has a group (in chrome console)
+
+
 Implementing:
 
 ONLINE USAGE:
