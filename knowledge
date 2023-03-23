@@ -170,10 +170,10 @@ rect.attr('width', 24)
     .attr('height', 100)
                     // d is data, i is index
     .attr('x', function(d, i) {
-      console.log(i);
+      console.log(i);                   // index
       return d*30;
     })
     .attr('y', function(d, i) {
-      console.log(d);
+      console.log(d);                   // data
       return d*20;
     });
