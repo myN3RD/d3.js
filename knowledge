@@ -191,3 +191,14 @@ rect.attr('width', 24)
       // console.log(d); // data
       return 600 - (d); // svg height - (data)
     });
+    
+    
+    
+          THE ENTER() SELECTION         (with this we dont have to hard code all rect)
+          _____________________
+          
+     
+rect.data(dataArray)
+    .enter().append('rect')
+    . ...
+    . ...
