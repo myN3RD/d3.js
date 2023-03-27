@@ -177,3 +177,17 @@ rect.attr('width', 24)
       console.log(d);                   // data
       return d*20;
     });
+    
+    
+    
+    
+    
+    
+          yAXIS INVERT
+          ____________
+          
+                 
+    .attr('y', function(d, i) {
+      // console.log(d); // data
+      return 600 - (d); // svg height - (data)
+    });
