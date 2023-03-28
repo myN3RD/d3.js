@@ -202,3 +202,8 @@ rect.data(dataArray)
     .enter().append('rect')
     . ...
     . ...
+    
+
+NOTE: we dont use any <rect></rect> in html file now!
+
+
