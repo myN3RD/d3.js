@@ -207,3 +207,26 @@ rect.data(dataArray)
 NOTE: we dont use any <rect></rect> in html file now!
 
 
+
+
+    
+          using JSON (Javascript Object Notation)
+          __________
+          
+                 
+type:
+
+d3.json -> hit enter
+now we should get this:
+d3.json('.json', function(err,data){});
+           ⬇
+          URL
+          
+          
+// as arrow function          
+d3.json('https://jsonplaceholder.typicode.com/todos/1')
+  .then(data => {
+    console.log(data);
+  });
+
+
