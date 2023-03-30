@@ -80,11 +80,6 @@ so we have to style it
 same for <text></text>
 
 
-
-          TANGLES ?
-          _______
-          
-       
        
        
           ATTRIBUTES
@@ -194,6 +189,26 @@ rect.attr('width', 24)
     
     
     
+    
+          BAR CHARTS ON THE xAXIS & yAXIS
+          _______________________________
+          
+          
+    .attr('x', function(d, i) {         // der i = index wird auf der x Achse abgebildet
+      console.log(i); // index
+      console.log(d); // data
+      return i*57;
+    })
+    
+    
+    .attr('y', function(d, i) {          // der i = index wird auf der y Achse abgebildet
+      console.log(i); // index
+      console.log(d); // data
+      return i*57;
+    })
+    
+    
+    
           THE ENTER() SELECTION         (with this we dont have to hard code all rect)
           _____________________
           
@@ -211,7 +226,7 @@ NOTE: we dont use any <rect></rect> in html file now!
 
     
           using JSON (Javascript Object Notation)
-          __________
+          _______________________________________
           
                  
 type:
