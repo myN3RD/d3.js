@@ -245,3 +245,13 @@ d3.json('https://jsonplaceholder.typicode.com/todos/1')
   });
 
 
+
+
+
+
+          APIS / PROJECTS
+          _______________
+          
+Earthquake:        
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+-> https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson
