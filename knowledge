@@ -101,6 +101,13 @@ NOTE: the order of the shapes in the code from top to bottom is like layering "P
       -> that means the shapes on the top of the code will be UNDER the FOLLOWING shapes
 
 
+Rectangle <rect>
+Ellipse <ellipse>
+Polyline <polyline>
+Polygon <polygon>
+
+
+
 <circle></circle>
 <rect/> (rechteck)
 <line></line>
