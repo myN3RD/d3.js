@@ -321,3 +321,4 @@ pointer-events: none
 If we have several bars, now it's scaling dynamically the width, that all bars will fit in the svg - so it will make the width automatically
 
 
+.bandwidth
