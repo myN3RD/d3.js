@@ -285,7 +285,8 @@ pointer-events: none
 
 
 
-          LINEAR SCALES
+          LINEAR SCALES (auto height scaling of bars)
+          Y COORDINATE
           _____________
         
 0....1000  Linear Scale >  0...500
@@ -309,5 +310,14 @@ pointer-events: none
 
 
 
+
+
+
+
+          BAND SCALES (auto width scaling of bars and seperation between them)
+          X COORDINATE
+          ____________
+        
+If we have several bars, now it's scaling dynamically the width, that all bars will fit in the svg - so it will make the width automatically
 
 
