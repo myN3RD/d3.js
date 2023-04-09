@@ -1,5 +1,8 @@
 d3 is a javascript library
 
+d3 always draws from top to bottom by default
+
+
 
 every d3 object has a group (in chrome console)
 
@@ -216,6 +219,7 @@ rect.attr('width', 24)
     
     
     
+    
           THE ENTER() SELECTION         (with this we dont have to hard code all rect)
           _____________________
           
@@ -255,9 +259,9 @@ d3.json('https://jsonplaceholder.typicode.com/todos/1')
 
 
 
-
           APIS / PROJECTS
           _______________
+          
           
 Earthquake:        
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
@@ -289,6 +293,7 @@ pointer-events: none
           Y COORDINATE
           _____________
         
+        
 0....1000  Linear Scale >  0...500
 
         0  Linear Scale >  0                      SCALED DOWN VALUES
@@ -304,6 +309,7 @@ pointer-events: none
  PULLING THE HEIGHT FROM JSON FILE (because we dont know the MAX height)
  ______________________________________________________________________
  
+ 
   const y = d3.scaleLinear()
               .domain([0, d3.max(data, d => d.height)])
               .range([0, 350]);
@@ -317,6 +323,7 @@ pointer-events: none
           BAND SCALES (auto width scaling of bars and seperation between them)
           X COORDINATE
           ____________
+        
         
 If we have several bars, now it's scaling dynamically the width, that all bars will fit in the svg - so it will make the width automatically
 
@@ -351,4 +358,16 @@ __________
 we have to use g 
           
 const graph = svg.append('g'); // creating a g == group where we put in things (bars)
+
+
+
+
+
+          INVERTING AXIS
+          ______________
+          
+
+NOTE: hardest concept in d3
+
+
 
