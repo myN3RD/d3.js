@@ -4,6 +4,10 @@ d3 always draws from top to bottom by default
 
 
 
+on.mouseover doesntwork for me :/
+
+
+
 every d3 object has a group (in chrome console)
 
 
