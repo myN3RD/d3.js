@@ -369,5 +369,5 @@ const graph = svg.append('g'); // creating a g == group where we put in things (
 
 NOTE: hardest concept in d3
 
-
-
+ADD:
+ .attr('y', d => y(d.height)) // inverting the y dynamic value        // start drawing from the height of data
