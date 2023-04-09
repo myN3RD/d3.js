@@ -338,3 +338,17 @@ __________
 
           .paddingInner(0.05) // between the bars
           .paddingOuter(0.2); // outside from the bars
+          
+          
+          
+          
+          
+          
+          PUTTING THINGS INTO A CONTAINER
+          _______________________________
+          
+          
+we have to use g 
+          
+const graph = svg.append('g'); // creating a g == group where we put in things (bars)
+
