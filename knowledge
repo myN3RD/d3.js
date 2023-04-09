@@ -321,4 +321,20 @@ pointer-events: none
 If we have several bars, now it's scaling dynamically the width, that all bars will fit in the svg - so it will make the width automatically
 
 
-.bandwidth
+
+EXAMPLE
+_______
+
+
+rect.data(data)
+        .enter().append('rect')
+        .attr('width', x.bandwidth) // dynamic
+        
+        
+
+ATTRIBUTES
+__________
+
+
+          .paddingInner(0.05) // between the bars
+          .paddingOuter(0.2); // outside from the bars
