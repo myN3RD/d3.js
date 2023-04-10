@@ -155,7 +155,24 @@ has a drawing starting (M) and an end point (L)
 
 
 
+DYNAMIC
+_______
 
+1. we have to create an array
+
+var data = [
+  {x:10, y:10},
+  {x:15, y:20}
+];
+
+
+
+2. 
+
+area.append('path')
+        .attr('fill', 'none')        // if we dont wanna fill it
+        .attr('stroke', 'green')
+        .attr('d', linearGen(data))  // because in the html file we need the d attribute in th <path  tag
 
 
 
