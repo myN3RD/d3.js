@@ -129,6 +129,24 @@ Polygon <polygon>
 
 
 
+          PATH (Class)
+          ____
+          
+==> for creating customized shapes
+
+has a drawing starting (M) and an end point (L)
+
+(l) from the current position
+(Z) complete the drawing
+
+              X  Y    X   Y    X  Y
+<path d = "M 50 50 L 100 100 l 25 0"></path> 
+
+
+
+
+
+
 
           Pseudo Visualizations
           _____________________
