@@ -122,9 +122,12 @@ Polygon <polygon>
 <circle></circle>
 <rect/> (rechteck)
 <line></line>
-<path></path> (for dynamic data-driven lines?)
+<path></path> 
+<path d="" />  (for dynamic data-driven lines?)
+
           (by default its filling -> if we dont want the auto fill -> fill="none")
 <text fill="black" x="" y=""></text>
+
 
 
 
@@ -135,12 +138,21 @@ Polygon <polygon>
 ==> for creating customized shapes
 
 has a drawing starting (M) and an end point (L)
+-> we can use multiple (L) in one <path
 
-(l) from the current position
+(l) from the current position -> (so L is the current position)
 (Z) complete the drawing
 
+
+
+<path d="" />
+
               X  Y    X   Y    X  Y
-<path d = "M 50 50 L 100 100 l 25 0"></path> 
+<path d = "M 50 50 L 100 100 l 25 0">
+
+ <!-- hardcode example -->
+       <path d="M 50 50 L 100 100 l 10 60 L 110 0 Z" fill="orange" />
+
 
 
 
