@@ -1,6 +1,9 @@
+d3 is used for data visualisation
+
 d3 is a javascript library
 
 d3 always draws from top to bottom by default
+
 
 
 
@@ -8,10 +11,11 @@ on.mouseover doesntwork for me :/
 
 
 
+
 every d3 object has a group (in chrome console)
 
 
-Implementing:
+Implementation:
 
 ONLINE USAGE:
 
@@ -129,6 +133,7 @@ Polygon <polygon>
           Pseudo Visualizations
           _____________________
 
+
 Templates:
 https://datavizproject.com/
 https://ft-interactive.github.io/visual-vocabulary/
@@ -141,6 +146,7 @@ https://www.data-to-viz.com/
 
           app.js file
           ___________
+          
           
 const canvas = d3.select('.canva');
 
@@ -307,6 +313,7 @@ pointer-events: none
 
           
 [0, 1000] < == DOMAIN (naming)         what we get out of that, is a            [0, 500] < == RANGE            (SCALED DOWN VALUES)
+
 
 
 
