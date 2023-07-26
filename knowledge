@@ -1,3 +1,7 @@
+https://www.w3.org/2000/svg
+
+
+
 d3 is used for data visualisation
 
 d3 is a javascript library
@@ -49,7 +53,6 @@ OFFLINE USAGE:
           SVG (Vector)
           ___
 
-
 Scalable Vector Graphics
 
 
@@ -94,8 +97,7 @@ same for <text></text>
        
        
           ATTRIBUTES
-          __________
-          
+          __________  
         
 fill (for color)
 stroke (like border)
@@ -106,7 +108,6 @@ stroke-width (like border size)
 
           SHAPES
           ______
-          
           
 NOTE: the order of the shapes in the code from top to bottom is like layering "Photoshop Ebenen"
       -> that means the shapes on the top of the code will be UNDER the FOLLOWING shapes
@@ -131,7 +132,6 @@ Polygon <polygon>
 
 
 
-
           PATH (Class)
           ____
           
@@ -142,7 +142,6 @@ has a drawing starting (M) and an end point (L)
 
 (l) from the current position -> (so L is the current position)
 (Z) complete the drawing
-
 
 
 <path d="" />
@@ -180,7 +179,6 @@ area.append('path')
           Pseudo Visualizations
           _____________________
 
-
 Templates:
 https://datavizproject.com/
 https://ft-interactive.github.io/visual-vocabulary/
@@ -193,7 +191,6 @@ https://www.data-to-viz.com/
 
           app.js file
           ___________
-          
           
 const canvas = d3.select('.canva');
 
@@ -209,10 +206,8 @@ svg.append('text').text('Hello').attr('x', 100).attr('y', 100);
 
 
 
-
           DYNAMIC DATA USING
-          __________________
-          
+          __________________     
 
 // d3
 const canvas = d3.select('.canva');
@@ -243,11 +238,8 @@ rect.attr('width', 24)
     
     
     
-    
-    
           yAXIS INVERT
-          ____________
-          
+          ____________      
                  
     .attr('y', function(d, i) {
       // console.log(d); // data
@@ -259,7 +251,6 @@ rect.attr('width', 24)
     
           BAR CHARTS ON THE xAXIS & yAXIS
           _______________________________
-          
           
     .attr('x', function(d, i) {         // der i = index wird auf der x Achse abgebildet
       console.log(i); // index
@@ -279,8 +270,7 @@ rect.attr('width', 24)
     
           THE ENTER() SELECTION         (with this we dont have to hard code all rect)
           _____________________
-          
-     
+           
 rect.data(dataArray)
     .enter().append('rect')
     . ...
@@ -291,11 +281,9 @@ NOTE: we dont use any <rect></rect> in html file now!
 
 
 
-
     
           using JSON (Javascript Object Notation)
-          _______________________________________
-          
+          _______________________________________       
                  
 type:
 
@@ -315,10 +303,8 @@ d3.json('https://jsonplaceholder.typicode.com/todos/1')
 
 
 
-
           APIS / PROJECTS
-          _______________
-          
+          _______________   
           
 Earthquake:        
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
@@ -330,7 +316,6 @@ https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
           SMOOTH TRANSITIONS/ANIMATIONS
           _____________________________
           
-          
 for smooth transitions:
 
 in the css file -> in the specific class for examples
@@ -341,7 +326,6 @@ classname {
 ...
 pointer-events: none
 }
-
 
 
 
@@ -363,7 +347,6 @@ pointer-events: none
 
 
 
-
  PULLING THE HEIGHT FROM JSON FILE (because we dont know the MAX height)
  ______________________________________________________________________
  
@@ -371,9 +354,6 @@ pointer-events: none
   const y = d3.scaleLinear()
               .domain([0, d3.max(data, d => d.height)])
               .range([0, 350]);
-
-
-
 
 
 
@@ -390,7 +370,6 @@ If we have several bars, now it's scaling dynamically the width, that all bars w
 EXAMPLE
 _______
 
-
 rect.data(data)
         .enter().append('rect')
         .attr('width', x.bandwidth) // dynamic
@@ -400,11 +379,8 @@ rect.data(data)
 ATTRIBUTES
 __________
 
-
           .paddingInner(0.05) // between the bars
           .paddingOuter(0.2); // outside from the bars
-          
-          
           
           
           
@@ -416,7 +392,6 @@ __________
 we have to use g 
           
 const graph = svg.append('g'); // creating a g == group where we put in things (bars)
-
 
 
 
